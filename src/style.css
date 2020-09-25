@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+
+.intro {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: "Fondamento", cursive;
+}
+
+.content {
+  background-color: rgb(33, 37, 41);
+}
+
+.pics {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.pics:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.05);
+}
+
+.name {
+  font-size: 8.6vmax;
+  margin: 0;
+  position: relative;
+  z-index: 4;
+  line-height: 1;
+  color: black;
+  font-weight: 400;
+  text-shadow: 0 2px 80px rgba(0, 0, 0, 0.6);
+}
+
+.name:hover {
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: rgb(33, 37, 41);
+  text-decoration: none;
+}
+
+.react-text {
+  color: rgb(97, 219, 251);
+}
+.flagSaffron {
+  color: #ff9933;
+}
+.flagGreen {
+  color: #138808;
+}
+
+.bulb {
+  color: #fccc38;
+}
+.lens {
+    height: 90px;
+    width: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .lens {
+      animation: lens-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes lens-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.world {
+    height: 350px;
+    width: 100%;
+}
+.plane {
+    height: 100px;
+    width: auto;
+}
+.end {
+  position: relative;
+}
+.ocean {
+  width: 100%;
+}
+.see {
+  color: whitesmoke;
+  font-size: 100px;
+  font-family: "Fondamento", cursive;
+  position: absolute;
+  bottom: 200px;
+  left: 20%;
+}
+.about{
+  background-color:white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(211, 205, 205, 0.2), 0 6px 20px 0 rgba(196, 190, 190, 0.19);
+}
+.about-headings{
+  color: black;
+  font-size: 50px;
+  font-family: "Fondamento", cursive;
+}
+
+.about-text{
+  color: black;
+  font-size: 30px;
+  font-family: "Fondamento", cursive;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail {
+  width: 64px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
