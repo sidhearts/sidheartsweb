@@ -15,14 +15,14 @@ function Home() {
 
   return (
     <div className="content">
-      <div className="container">
-        <div className="p-5" data-aos="fade-right">
+      <div className="container-fluid">
+        <div className="p-5" data-aos="fade-up">
           <h1 className="intro">
             Interactive <span className="react-text">React</span> and MERN Stack
           </h1>
         </div>
         <div className="row">
-          <div className="col-6 col-md-4" data-aos="fade-right">
+          <div className="col-6 col-md-4" data-aos="fade-up">
             <h1 className="text-center m-auto intro">
               Developer
               <br />
@@ -35,7 +35,7 @@ function Home() {
           <div className="col-6 col-md-4" data-aos="zoom-in">
             <img src={logo} className="App-logo" alt="logo" />
           </div>
-          <div className="col-12 col-md-4" data-aos="fade-left">
+          <div className="col-12 col-md-4" data-aos="fade-up">
             <h1 className="text-center m-auto intro">
               Focused on
               <br />
@@ -43,7 +43,7 @@ function Home() {
             </h1>
           </div>
         </div>
-        <div className="p-5 text-right" data-aos="fade-left">
+        <div className="p-5 text-right" data-aos="fade-up">
           <h1 className="intro">
             A mint of <span className="bulb">creativity</span>
             <img src={images.bulb} /> . Beyond the limits
