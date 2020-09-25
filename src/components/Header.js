@@ -30,7 +30,7 @@ const Header = (props) => {
         <div className="content">
             <div>
             <Navbar style={{backgroundColor: "rgb(33,37,41)"}} dark fixed="top" expand="md">
-                <NavbarBrand href="/">Siddharth</NavbarBrand>
+                <NavbarBrand href="/home">Siddharth</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
