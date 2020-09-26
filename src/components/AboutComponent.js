@@ -1,8 +1,7 @@
 import React from "react";
 import "../style.css";
 import { images } from "../images";
-import { Card, Image } from "react-bootstrap";
-import Aos from "aos";
+import { Card, Image, Button } from "react-bootstrap";
 import "aos/dist/aos.css";
 
 function About() {
@@ -44,35 +43,96 @@ function About() {
         </div>
         <div className="about mt-5 pb-5 px-5" data-aos="fade-up">
           <p className="about-headings text-center pt-2">Skills</p>
-          <p className="about-text pl-5"><u>Programming Languages:</u></p>
-          <div className="pl-5 pt-3">
+          <p className="about-text px-5">
+            <u>Programming Languages:</u>
+          </p>
+          <div className="px-5 pt-3">
             <Image src={images.js} className="thumbnail m-2" />
             <Image src={images.python} className="thumbnail m-2" />
             <Image src={images.c} className="thumbnail m-2" />
           </div>
-          <p className="about-text pl-5"><u>Backend:</u></p>
-          <div className="pl-5 pt-3">
+          <p className="about-text px-5">
+            <u>Backend:</u>
+          </p>
+          <div className="px-5 pt-3">
             <Image src={images.node} className="thumbnail m-2" />
             <Image src={images.express} className="thumbnail m-2" />
           </div>
-          <p className="about-text pl-5"><u>Frontend:</u></p>
-          <div className="pl-5 pt-3">
+          <p className="about-text px-5">
+            <u>Frontend:</u>
+          </p>
+          <div className="px-5 pt-3">
             <Image src={images.react} className="thumbnail m-2" />
             <Image src={images.html} className="thumbnail m-2" />
             <Image src={images.css} className="thumbnail m-2" />
             <Image src={images.jquery} className="thumbnail m-2" />
             <Image src={images.bootstrap} className="thumbnail m-2" />
           </div>
-          <p className="about-text pl-5"><u>Database:</u></p>
-          <div className="pl-5 pt-3">
+          <p className="about-text px-5">
+            <u>Database:</u>
+          </p>
+          <div className="px-5 pt-3">
             <Image src={images.mongo} className="thumbnail m-2" />
             <Image src={images.firebase} className="thumbnail m-2" />
           </div>
-          <p className="about-text pl-5"><u>Others:</u></p>
-          <div className="pl-5 pt-3">
+          <p className="about-text px-5">
+            <u>Others:</u>
+          </p>
+          <div className="px-5 pt-3">
             <Image src={images.git} className="thumbnail m-2" />
             <Image src={images.gitLogo} className="thumbnail m-2" />
             <Image src={images.ubuntu} className="thumbnail m-2" />
+          </div>
+        </div>
+        <div className="about mt-5" data-aos="fade-up">
+          <p className="about-headings text-center pt-2">Courses</p>
+          <div className="row">
+            <div className="col-12 col-md-4 p-3 d-flex justify-content-center">
+              <Card className="card" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={images.coursera} />
+                <Card.Body>
+                  <Card.Title>
+                    Front-End Web UI Frameworks and Tools: Bootstrap 4
+                  </Card.Title>
+                  <Button
+                    href="https://drive.google.com/file/d/1-sZ83EwQBNccVLA2AsMqPf_X8yu0_pXu/view?usp=sharing"
+                    variant="primary"
+                  >
+                    View Certificate
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-12 col-md-4 p-3 d-flex justify-content-center">
+              <Card className="card" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={images.coursera} />
+                <Card.Body>
+                  <Card.Title>Front-End Web Development with React</Card.Title>
+                  <Button
+                    href="https://drive.google.com/file/d/1-tKMea8oD2Htn0VxbgmH9IjQjeJ8OJE5/view?usp=sharing"
+                    variant="primary"
+                  >
+                    View Certificate
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-12 col-md-4 p-3 d-flex justify-content-center">
+              <Card className="card" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={images.coursera} />
+                <Card.Body>
+                  <Card.Title>
+                    Multiplatform Mobile App Development with React Native
+                  </Card.Title>
+                  <Button
+                    href="https://drive.google.com/file/d/1-rdloQmy2qwTURQq_jXx9gZcucMHtToT/view?usp=sharing"
+                    variant="primary"
+                  >
+                    View Certificate
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
           </div>
         </div>
       </div>

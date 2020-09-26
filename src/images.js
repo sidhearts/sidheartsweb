@@ -41,4 +41,6 @@ export const images = {
     git: require('./images/git.png'),
     gitLogo: require('./images/githubLogo.png'),
     ubuntu: require('./images/ubuntu.jpg'),
+    coursera: require('./images/coursera.jpeg'),
+    background: require('./images/background.jpg')
 }
