@@ -8,7 +8,7 @@ import {
   NavItem,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 import { images } from "../images";
 import "../style.css";
 
@@ -34,8 +34,8 @@ const Header = (props) => {
           fixed="top"
           expand="md"
         >
-          <NavbarBrand href="/home">Siddharth</NavbarBrand>
           <NavbarToggler onClick={toggle} />
+          <NavbarBrand href="/home" className="cursive d-block d-md-none">Sidhearts</NavbarBrand>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
@@ -44,6 +44,7 @@ const Header = (props) => {
                 </NavLink>
               </NavItem>
             </Nav>
+            <NavbarBrand href="/home" className="cursive d-none d-md-block">Sidhearts</NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink className="nav-link" to="/about">
@@ -54,7 +55,7 @@ const Header = (props) => {
           </Collapse>
         </Navbar>
       </div>
-      <div style={{ backgroundColor: "rgb(33,37,41)", height: 70 }} />
+      <div style={{ backgroundColor: "rgb(33,37,41)", height: 50 }} />
       <div>
         <Parallax bgImage={images.sid} strength={500}>
           <div style={{ height: 500 }}>
