@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className="content">
       <div className="container">
-        <h1 className="text-center intro p-5">STAY CONNECTED</h1>
+        <p className="text-center intro py-5">STAY CONNECTED</p>
         <div className="justify-content-center text-center">
           <a className="name" href="https://twitter.com/rajsiddharth211">
             TWITTER
@@ -36,7 +36,7 @@ function Footer() {
         <div className="pt-5"></div>
       </div>
       <div className="end d-none d-lg-block">
-        <h1 className="text-center see">SEE YOU AGAIN</h1>
+        <p className="text-center see">SEA YOU AGAIN</p>
         <Image data-aos="fade-up" data-aos-duration="3000" className="ocean" src={images.ocean} />
       </div>
     </div>
