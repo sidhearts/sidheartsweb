@@ -21,7 +21,7 @@ code {
 
 .intro {
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 5vw;
   font-family: "Fondamento", cursive;
 }
 
@@ -42,7 +42,7 @@ code {
 }
 
 .name {
-  font-size: 8.6vmax;
+  font-size: 7vw;
   margin: 0;
   position: relative;
   z-index: 4;

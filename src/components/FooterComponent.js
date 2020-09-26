@@ -13,22 +13,22 @@ function Footer() {
     <div className="content">
       <div className="container">
         <p className="text-center intro py-5">STAY CONNECTED</p>
-        <div className="justify-content-center text-center">
+        <div className="text-center">
           <a className="name" href="https://twitter.com/rajsiddharth211">
             TWITTER
           </a>
         </div>
-        <div className="justify-content-center text-center">
+        <div className="text-center">
           <a className="name" href="https://github.com/sidhearts">
             GITHUB
           </a>
         </div>
-        <div className="justify-content-center text-center">
+        <div className="text-center">
           <a className="name" href="https://github.com/sidhearts">
             LINKEDIN
           </a>
         </div>
-        <div className="justify-content-center text-center">
+        <div className="text-center">
           <a className="name" href="https://www.instagram.com/sidhearts/">
             INSTAGRAM
           </a>
