@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className="content">
       <div className="container">
-        <p className="text-center intro py-5">STAY CONNECTED</p>
+        <p className="text-center intro py-2 py-md-5">STAY CONNECTED</p>
         <div className="text-center">
           <a className="name" href="https://twitter.com/rajsiddharth211">
             TWITTER
@@ -33,11 +33,19 @@ function Footer() {
             INSTAGRAM
           </a>
         </div>
-        <div className="pt-5"></div>
+        <div className="pt-5 text-center" style={{ color: "white" }}>
+          © 2020 All rights reserved.
+          <br /> made with love by sidhearts
+        </div>
       </div>
       <div className="end d-none d-lg-block">
         <p className="text-center see">SEA YOU AGAIN</p>
-        <Image data-aos="fade-up" data-aos-duration="3000" className="ocean" src={images.ocean} />
+        <Image
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="ocean"
+          src={images.ocean}
+        />
       </div>
     </div>
   );

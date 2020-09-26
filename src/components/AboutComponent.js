@@ -7,11 +7,10 @@ import "aos/dist/aos.css";
 function About() {
   return (
     <div className="content">
-      <div className="container p-5">
+      <div className="container p-3 p-md-5">
         <div className="about" data-aos="fade-up">
           <p className="about-headings text-center pt-2">About Me</p>
-          <br />
-          <p className="about-text text-center mx-md-5 pb-5 px-5">
+          <p className="about-text text-center p-3 p-md-4">
             Hola! I'm Siddharth Raj, and I'm Computer Science and Engineering
             student at Galgotias University. I'm a Programmer, Full stack
             developer and a python enthusiast. I love to exploring places
@@ -43,42 +42,42 @@ function About() {
         </div>
         <div className="about mt-5 pb-5 px-5" data-aos="fade-up">
           <p className="about-headings text-center pt-2">Skills</p>
-          <p className="about-text px-5">
+          <p className="about-text px-2 px-md-5">
             <u>Programming Languages:</u>
           </p>
-          <div className="px-5 pt-3">
+          <div className="px-2 px-md-5 pt-2">
             <Image src={images.js} className="thumbnail m-2" />
             <Image src={images.python} className="thumbnail m-2" />
             <Image src={images.c} className="thumbnail m-2" />
           </div>
-          <p className="about-text px-5">
+          <p className="about-text px-2 px-md-5">
             <u>Backend:</u>
           </p>
-          <div className="px-5 pt-3">
+          <div className="px-2 px-md-5 pt-2">
             <Image src={images.node} className="thumbnail m-2" />
             <Image src={images.express} className="thumbnail m-2" />
           </div>
-          <p className="about-text px-5">
+          <p className="about-text px-2 px-md-5">
             <u>Frontend:</u>
           </p>
-          <div className="px-5 pt-3">
+          <div className="px-2 px-md-5 pt-2">
             <Image src={images.react} className="thumbnail m-2" />
             <Image src={images.html} className="thumbnail m-2" />
             <Image src={images.css} className="thumbnail m-2" />
             <Image src={images.jquery} className="thumbnail m-2" />
             <Image src={images.bootstrap} className="thumbnail m-2" />
           </div>
-          <p className="about-text px-5">
+          <p className="about-text px-2 px-md-5">
             <u>Database:</u>
           </p>
-          <div className="px-5 pt-3">
+          <div className="px-2 px-md-5 pt-2">
             <Image src={images.mongo} className="thumbnail m-2" />
             <Image src={images.firebase} className="thumbnail m-2" />
           </div>
-          <p className="about-text px-5">
+          <p className="about-text px-2 px-md-5">
             <u>Others:</u>
           </p>
-          <div className="px-5 pt-3">
+          <div className="px-2 px-md-5 pt-2">
             <Image src={images.git} className="thumbnail m-2" />
             <Image src={images.gitLogo} className="thumbnail m-2" />
             <Image src={images.ubuntu} className="thumbnail m-2" />

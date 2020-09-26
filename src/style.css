@@ -72,7 +72,7 @@ code {
   color: #fccc38;
 }
 .lens {
-    height: 90px;
+    height: 8vw;
     width: auto;
 }
 @media (prefers-reduced-motion: no-preference) {
