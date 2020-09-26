@@ -126,8 +126,8 @@ function Home() {
             </div>
           </div>
         </div>
+        <p className="text-center intro">TRAVELLING LOG</p>
         <div className="px-5">
-          <p className="text-center intro p-5">TRAVELLING LOG</p>
           <div class="card bg-dark text-white">
             <img class="card-img world" src={images.world} alt="Card image" />
             <div class="d-none d-md-block card-img-overlay">
